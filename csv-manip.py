@@ -38,7 +38,7 @@ for filename in os.listdir(path):
                 else:
                     new_col.append("")
             except KeyError as ke:
-                new_col.append("ERROR")
+                new_col.append("")
                 print("The name \"" + entry + "\" is missing from the email registry")
                 continue
         
